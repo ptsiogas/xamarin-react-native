@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9B697011-40F0-42E1-8101-0FDA2FA8A8DF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleApp.iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="SampleApp.Droid/MainActivity.cs" Line="28" Column="13" />
+      <File FileName="SampleApp.iOS/AppDelegate.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SampleApp" expanded="True">
+            <Node name="SampleApp.Droid" expanded="True" />
+            <Node name="SampleApp.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1961C310-212B-4047-ADDC-B58F11A27D93" />
+  <MonoDevelop.Ide.ItemProperties.SampleApp.Droid PreferredExecutionTarget="Android.Pixel_API_26" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{5557067B-04CE-407A-8E1E-DC5FBBB781B9}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReactNative.Forms" expanded="True">
+            <Node name="ReactNative.Forms.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+            <Node name="ReactNative.Forms.iOS" expanded="True" selected="True">
+              <Node name="Packages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ReactNative.Forms.Droid PreferredExecutionTarget="Android.Android_TV_720p_API_26" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

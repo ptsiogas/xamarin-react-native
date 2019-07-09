@@ -15,7 +15,6 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -105,6 +104,12 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.1.444934\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Square.OkIO">
+      <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactNative.Forms.Droid">
+      <HintPath>..\packages\ReactNative.Forms.Droid.1.0.55\lib\MonoAndroid10\ReactNative.Forms.Droid.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -121,10 +126,12 @@
     <ProjectReference Include="..\..\binding\ReactNative.Droid\ReactNative.Droid.csproj">
       <Project>{093D248C-E7EF-4C74-B1A0-38E0A332E736}</Project>
       <Name>ReactNative.Droid</Name>
+      <HintPath>..\packages\ReactNative.Droid.1.0.55\lib\MonoAndroid10\ReactNative.Droid.dll</HintPath>
     </ProjectReference>
     <ProjectReference Include="..\ReactNative.Forms\ReactNative.Forms.csproj">
       <Project>{370CC3E0-D956-4784-A374-F80B0E536C31}</Project>
       <Name>ReactNative.Forms</Name>
+      <HintPath>..\packages\ReactNative.Forms.1.0.55\lib\MonoAndroid10\ReactNative.Forms.dll</HintPath>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

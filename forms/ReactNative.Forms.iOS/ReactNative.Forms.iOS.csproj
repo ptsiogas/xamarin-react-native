@@ -58,6 +58,9 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.1.444934\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="ReactNative.Forms.iOS">
+      <HintPath>..\packages\ReactNative.Forms.iOS.1.0.55\lib\Xamarin.iOS10\ReactNative.Forms.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,10 +70,12 @@
     <ProjectReference Include="..\..\binding\ReactNative.iOS\ReactNative.iOS.csproj">
       <Project>{05FF3726-ED02-4814-AF63-9BA10085090E}</Project>
       <Name>ReactNative.iOS</Name>
+      <HintPath>..\packages\ReactNative.iOS.1.0.55\lib\Xamarin.iOS10\ReactNative.iOS.dll</HintPath>
     </ProjectReference>
     <ProjectReference Include="..\ReactNative.Forms\ReactNative.Forms.csproj">
       <Project>{370CC3E0-D956-4784-A374-F80B0E536C31}</Project>
       <Name>ReactNative.Forms</Name>
+      <HintPath>..\packages\ReactNative.Forms.1.0.55\lib\Xamarin.iOS10\ReactNative.Forms.dll</HintPath>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
